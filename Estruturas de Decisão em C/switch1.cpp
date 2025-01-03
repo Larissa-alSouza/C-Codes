@@ -79,10 +79,8 @@ switch(esc){
         printf("Digite o expoente: ");
         scanf("%lf", &expoente);
     
-        // Cálculo da potência
         resultado = pow(base, expoente);
     
-        // Exibindo o resultado
         printf("%.2lf elevado a %.2lf é igual a %.2lf\n", base, expoente, resultado);
         break;
     }
